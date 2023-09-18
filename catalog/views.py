@@ -1,7 +1,7 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views import generic
 
-from .models import Book, Author, BookInstance, Genre
+from .models import Book, Author, BookInstance
 from django.shortcuts import render
 
 
